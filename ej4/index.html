@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Registro</h1>
+        <form action="">
+            <div class="input-group">
+                <div class="input-icon nombre">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#0ef306" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                        </svg>
+                </div>
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div class="input-group correo register-needed">
+                <div class="input-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#0ef306" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                        </svg>
+                </div>
+                <input type="email" placeholder="Correo">
+            </div>
+            <div class="input-group password">
+                <div class="input-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#0ef306 "width="20" height="20" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+                        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+                        </svg>
+                </div>
+                <input type="password" placeholder="Contraseña">
+            </div>
+                <p class="olvidar login-needed">¿Olvidaste tu Contraseña? <a href="#">Click Aquí</a></p>
+            <div class="btn-field">
+                <button id="signUp" type="button">Registrarse</button>
+                <button id="signIn" type="button" class="disabled">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
